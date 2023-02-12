@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("const content = document.getElementById('content');\n\nfunction componentsAppend() {\n    \n    const restaurantHeader = document.createElement('h3');\n    const explain = document.createElement('p');\n    const sushiImage = document.createElement('img')\n    sushiImage.src = \"../ice-sush.png\"\n    const headerText = document.createTextNode('Schmoogie Restuarant-A');\n    const explainText = document.createTextNode('Schmoogie is the best Italian/Sushi/Ice-cream palor fusion to ever exist (it\\'s also the only one to exist). Our founder, JS. Schmoogie instilled in us a commit to quality ingredients over everything else. Thats why our dishes are so expensive. Nothing but the best!');\n    restaurantHeader.appendChild(headerText);\n    explain.appendChild(explainText);\n\n    content.appendChild(restaurantHeader);\n    content.appendChild(explain);\n    content.appendChild(sushiImage);\n  }\n\n  componentsAppend();\n  \n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 
