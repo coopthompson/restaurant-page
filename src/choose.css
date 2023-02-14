@@ -1,0 +1,20 @@
+.menu-style {
+    display: flex;
+    flex-direction: column;
+    color: #333745;
+    gap: 15px;
+}
+
+.item-style {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.desc-style {
+    width: 300px;
+}
+
+.pic-style {
+    width: 300px;
+}
