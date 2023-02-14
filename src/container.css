@@ -1,0 +1,7 @@
+.content-style {
+    display: flex;
+    flex-direction: column;
+    background-color: #FE5F55;
+    width: 100vw;
+    height: 100vh;
+}

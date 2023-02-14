@@ -1,0 +1,14 @@
+.home-style {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+    color: #333745;
+}
+
+.pic {
+    width: 500px;
+    height: auto;
+}
+

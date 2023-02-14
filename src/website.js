@@ -5,7 +5,7 @@ import constructContact from './contact.js';
 function flipPage() {
     constructHome();
     function emptyPage() {
-        const content = document.getElementById('content')
+        const content = document.getElementById('content');
         let contentChild = content.lastElementChild; 
             while (contentChild) {
                 content.removeChild(contentChild);
@@ -17,6 +17,7 @@ function flipPage() {
     btns.forEach(function(button) {
         button.addEventListener('click', function() {
             emptyPage();
+            console.log(button.textContent)
             if (button.textContent === 'Home') {
                 return constructHome();
             } else if (button.textContent === 'Menu') {

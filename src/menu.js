@@ -1,6 +1,6 @@
 const menuItem = (name, price, desc, image) => {
     const fullItem = document.createElement('div');
-    const nameItem = document.createElement('p');
+    const nameItem = document.createElement('h2');
     const priceItem = document.createElement('p');
     const descItem = document.createElement('p');
     const nameText = document.createTextNode(name);

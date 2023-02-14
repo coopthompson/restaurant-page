@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #C7EFCF;
+}
+
+.button-style {
+    padding: 20px;
+    background-color: #EEF5DB;
+    color: #333745;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

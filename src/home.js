@@ -1,5 +1,7 @@
+import './greeting.css'
+
 function homeHeader () {
-    const restaurantHeader = document.createElement('h3');
+    const restaurantHeader = document.createElement('h2');
     const headerText = document.createTextNode('Schmoogie Restuarant-A');
     restaurantHeader.appendChild(headerText);
     return restaurantHeader;
@@ -15,15 +17,20 @@ function homeBody () {
 function homeImage() {
     const sushiImage = document.createElement('img')
     sushiImage.src = "../ice-sush.png"
+    sushiImage.classList.add('pic')
     content.appendChild(sushiImage);
     return sushiImage;
 }
 
 function constructHome() {
+    const homeBox = document.createElement('div');
+    homeBox.appendChild(homeHeader());
+    homeBox.appendChild(homeBody());
+    homeBox.appendChild(homeImage());
+    homeBox.classList.add('home-style')
     const content = document.getElementById('content');
-    content.appendChild(homeHeader());
-    content.appendChild(homeBody())
-    content.appendChild(homeImage());
+    content.appendChild(homeBox);
 }
 
 export default constructHome
+
